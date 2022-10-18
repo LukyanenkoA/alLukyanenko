@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+    <meta name="viewport" content="width=device-width initial-scale=1,shrink-to-fit=no">
+    <title>Task 5. Lukyanenko Alla 21/1</title>
+    <script src="script6.js" defer></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <link rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container-fluid">
+    <div class="d-flex flex-column">
+      <div id="header" class="col-sm-12 p-1 order-md-0 mx-auto">
+        <header>
+          <img class="p-2 m-0.5 float-left" src="img.png" alt="There is an image" />
+          <h1 class="text-center">My fifth task in html</h1>
+          <h3 class="text-center">By Lukyanenko Alla</h3>
+        </header>
+      </div>
+      <div id="priceOfOrderField" class="form-group col-sm-12 text-center col-md-9 p-1 order-md-2 mx-auto">
+        <h2>Shopping basket:</h2>
+        <form name="calculator" onsubmit="return false;">
+            <div class="row">
+                <div class="col-3 col-md-3">
+                    <b>Item name and id</b>
+                </div>
+             <div class="col-2 col-md-2">
+                    <b>Price</b>
+                </div>
+                <div class="col-2 col-md-4">
+                    <b>Type</b>
+                </div>
+                <div class="col-2 col-md-2">
+                    <b>Quantity</b>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-3 col-md-3">
+                   "Item1" n001
+                </div>
+                <div class="col-2 col-md-2">
+                    <div class="pt-2" id="result1"></div>
+                </div>
+                <div class="col-2 col-md-4">
+                    <select name="itemType1">
+                        <option value="1">Type 1</option>
+                        <option value="2">Type 2</option>
+                        <option value="3">Type 3</option>
+                    </select>
+                    
+                    <div class="itemRadio1" id="itemRadio1">
+                        <label><input type="radio" name="myradio1" value="Option1">Option1</label>
+                        <label><input type="radio" name="myradio1" value="Option2">Option2</label>
+                        <label><input type="radio" name="myradio1" value="Option3">Option3</label>
+                    </div>
+                    <div id="itemProp1">
+                        <label><input type="checkbox" name="prop1"> Property 1</label>
+                        <label><input type="checkbox" name="prop2"> Property 2</label>
+                    </div>  
+                </div>
+                <div class="col-2 col-md-2">
+                    <input id="count1" type="text" value="1">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-3 col-md-3">
+                    "Item2" n002
+                </div>
+                <div class="col-2 col-md-2">
+                    <div class="pt-2" id="result2"></div>
+                </div>
+                <div class="col-2 col-md-4">
+                    <select name="itemType2">
+                        <option value="1">Type 1</option>
+                        <option value="2">Type 2</option>
+                        <option value="3">Type 3</option>
+                    </select>
+                    
+                    <div class="itemRadio2" id="itemRadio2">
+                        <label><input type="radio" name="myradio2" value="Option1">Option1</label>
+                        <label><input type="radio" name="myradio2" value="Option2">Option2</label>
+                    </div> 
+                    
+                    <div id="itemProp2">
+                        <label><input type="checkbox" name="prop1"> Property 1</label>
+                        <label><input type="checkbox" name="prop2"> Property 2</label>
+                    </div> 
+                </div>
+                <div class="col-2 col-md-2">
+                    <input id="count2" type="text" value="1">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-3 col-md-3">
+                   "Item3"  n003
+                </div>
+                <div class="col-2 col-md-2">
+                    <div class="pt-2" id="result3"></div>
+                </div>
+                <div class="col-2 col-md-4">
+                    <select name="itemType3">
+                        <option value="1">Type 1</option>
+                        <option value="2">Type 2</option>
+                        <option value="3">Type 3</option>
+                    </select>
+                    
+                    <div class="itemRadio3" id="itemRadio3">
+                        <label><input type="radio" name="myradio3" value="Option1">Option1</label>
+                        <label><input type="radio" name="myradio3" value="Option2">Option2</label>
+                    </div> 
+                    
+                    <div id="itemProp3">
+                        <label><input type="checkbox" name="prop1"> Property 1</label>
+                        <label><input type="checkbox" name="prop2"> Property 2</label>
+                    </div> 
+                </div>
+                <div class="col-2 col-md-2">
+                    <input id="count3" type="text" value="1">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-3 col-md-3">
+                    "Item4" n004
+                </div>
+             <div class="col-2 col-md-2">
+                <div class="pt-2" id="result4"></div>
+                </div>
+                <div class="col-2 col-md-4">
+                    <select name="itemType4">
+                        <option value="1">Type 1</option>
+                        <option value="2">Type 2</option>
+                        <option value="3">Type 3</option>
+                    </select>
+                    
+                    <div class="itemRadio4" id="itemRadio4">
+                        <label><input type="radio" name="myradio4" value="Option1">Option1</label>
+                        <label><input type="radio" name="myradio4" value="Option2">Option2</label>
+                        <label><input type="radio" name="myradio4" value="Option3">Option3</label>
+                    </div> 
+                    
+                    <div id="itemProp4">
+                        <label><input type="checkbox" name="prop1"> Property 1</label>
+                        <label><input type="checkbox" name="prop2"> Property 2</label>
+                    </div> 
+                </div>
+                <div class="col-2 col-md-2">
+                    <input id="count4" type="text" value="1">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-3 col-md-3">
+                   "Item5" n005
+                </div>
+                <div class="col-2 col-md-2">
+                    <div class="pt-2" id="result5"></div>
+                </div>
+                <div class="col-2 col-md-4">
+                    <select name="itemType5">
+                        <option value="1">Type 1</option>
+                        <option value="2">Type 2</option>
+                        <option value="3">Type 3</option>
+                    </select>
+                    
+                    <div class="itemRadio5" id="itemRadio5">
+                        <label><input type="radio" name="myradio5" value="Option1">Option1</label>
+                        <label><input type="radio" name="myradio5" value="Option2">Option2</label>
+                    </div> 
+                    
+                    <div id="itemProp5">
+                        <label><input type="checkbox" name="prop1"> Property 1</label>
+                        <label><input type="checkbox" name="prop2"> Property 2</label>
+                    </div> 
+                </div>
+               <div class="col-2 col-md-2">
+                    <input id="count5" type="text" value="1">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-3 col-md-3">
+                   "Item6" n006
+                </div>
+                <div class="col-2 col-md-2">
+                    <div class="pt-2" id="result6"></div>
+                </div>
+                <div class="col-2 col-md-4">
+                    <select name="itemType6">
+                        <option value="1">Type 1</option>
+                        <option value="2">Type 2</option>
+                        <option value="3">Type 3</option>
+                    </select>
+                    
+                    <div class="itemRadio6" id="itemRadio6">
+                        <label><input type="radio" name="myradio6" value="Option1">Option1</label>
+                        <label><input type="radio" name="myradio6" value="Option2">Option2</label>
+                    </div> 
+                    
+                    <div id="itemProp6">
+                        <label><input type="checkbox" name="prop1"> Property 1</label>
+                        <label><input type="checkbox" name="prop2"> Property 2</label>
+                    </div> 
+                </div>
+                <div class="col-2 col-md-2">
+                    <input id="count6" type="text" value="1">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-3 col-md-3">
+                    "Item7" n007
+                </div>
+                <div class="col-2 col-md-2">
+                    <div class="pt-2" id="result7"></div>
+                </div>
+                <div class="col-2 col-md-4">
+                    <select name="itemType7">
+                        <option value="1">Type 1</option>
+                        <option value="2">Type 2</option>
+                        <option value="3">Type 3</option>
+                    </select>
+                    
+                    <div class="itemRadio7" id="itemRadio7">
+                        <label><input type="radio" name="myradio7" value="Option1">Option1</label>
+                        <label><input type="radio" name="myradio7" value="Option2">Option2</label>
+                    </div> 
+                    
+                    <div id="itemProp7">
+                        <label><input type="checkbox" name="prop1"> Property 1</label>
+                        <label><input type="checkbox" name="prop2"> Property 2</label>
+                    </div> 
+                </div>
+              <div class="col-2 col-md-2">
+                    <input id="count7" type="text" value="1">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-3 col-md-3">
+                    "Item8" n008
+                </div>
+                <div class="col-2 col-md-2">
+                    <div class="pt-2" id="result8"></div>
+                </div>
+                <div class="col-2 col-md-4">
+                    <select name="itemType8">
+                        <option value="1">Type 1</option>
+                        <option value="2">Type 2</option>
+                        <option value="3">Type 3</option>
+                    </select>
+                    
+                    <div class="itemRadio8" id="itemRadio8">
+                        <label><input type="radio" name="myradio8" value="Option1">Option1</label>
+                        <label><input type="radio" name="myradio8" value="Option2">Option2</label>
+                    </div>  
+                    
+                    <div id="itemProp8">
+                        <label><input type="checkbox" name="prop1"> Property 1</label>
+                        <label><input type="checkbox" name="prop2"> Property 2</label>
+                    </div>
+                </div>
+              <div class="col-2 col-md-2">
+                    <input id="count8" type="text" value="1">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-3 col-md-3">
+                    "Item9" n009
+                </div>
+                <div class="col-2 col-md-2">
+                    <div class="pt-2" id="result9"></div>
+                </div>
+                <div class="col-2 col-md-4">
+                    <select name="itemType9">
+                        <option value="1">Type 1</option>
+                        <option value="2">Type 2</option>
+                        <option value="3">Type 3</option>
+                    </select>
+                    
+                    <div class="itemRadio9" id="itemRadio9">
+                        <label><input type="radio" name="myradio9" value="Option1">Option1</label>
+                        <label><input type="radio" name="myradio9" value="Option2">Option2</label>
+                        <label><input type="radio" name="myradio9" value="Option3">Option3</label>
+                    </div>  
+                    
+                    <div id="itemProp9">
+                        <label><input type="checkbox" name="prop1"> Property 1</label>
+                        <label><input type="checkbox" name="prop2"> Property 2</label>
+                    </div>
+                </div>
+              <div class="col-2 col-md-2">
+                    <input id="count9" type="text" value="1">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-3 col-md-3">
+                    "Item10" n010
+                </div>
+                <div class="col-2 col-md-2">
+                    <div class="pt-2" id="result10"></div>
+                </div>
+                <div class="col-2 col-md-4">
+                    <select name="itemType10">
+                        <option value="1">Type 1</option>
+                        <option value="2">Type 2</option>
+                        <option value="3">Type 3</option>
+                    </select>
+                    
+                    <div class="itemRadio10" id="itemRadio10">
+                        <label><input type="radio" name="myradio10" value="Option1">Option1</label>
+                        <label><input type="radio" name="myradio10" value="Option2">Option2</label>
+                    </div> 
+                    
+                    <div id="itemProp10">
+                        <label><input type="checkbox" name="prop1"> Property 1</label>
+                        <label><input type="checkbox" name="prop2"> Property 2</label>
+                    </div> 
+                </div>
+              <div class="col-2 col-md-2">
+                    <input id="count10" type="text" value="1">
+                </div>
+            </div>
+            
+        </form>
+        <div id="result"></div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
