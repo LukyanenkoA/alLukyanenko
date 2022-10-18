@@ -1,0 +1,37 @@
+  
+  .container-fluid{
+    background-color:rgb(101, 6, 84);
+  }
+  
+  .col-sm-12 {
+    font-size:25px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color:rgb(230, 141, 206);
+  }
+  #header img{
+    width:110px;
+    height:150px;
+  }
+  #priceOfOrderField {
+    font-size:25px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color:rgb(230, 141, 206); 
+  }
+  input, select{
+    font-size:15px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(241, 193, 231);
+    border: 1px solid black;
+    width: 65px;
+  }
+  label{    
+    cursor: pointer;
+    font-size:15px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+ #CalculateButton{
+  font-size:15px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: rgb(241, 193, 231);
+  border: 1px solid black; 
+ }
